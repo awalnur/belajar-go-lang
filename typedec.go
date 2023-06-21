@@ -1,5 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
-	$END$
+	type NoKtp string
+
+	var ktp NoKtp = "11209129812"
+
+	fmt.Println(ktp)
 }
