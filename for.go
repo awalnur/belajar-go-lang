@@ -18,6 +18,11 @@ func main() {
 		fmt.Println(value)
 	}
 
+	names := []string{"nama", "saya", "siapa"}
+	names = append(names, "namaasd")
+	for index, name := range names {
+		fmt.Println("Index", index, "=", name)
+	}
 	//for i := 0; i < 10; i++ {
 	//
 	//	if i%2 == 0 {
